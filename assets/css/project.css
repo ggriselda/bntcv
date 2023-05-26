@@ -387,14 +387,21 @@ ul {
 
 .project-box {
   display: flex;
-  flex-direction: column;
   align-items: center;
   margin-bottom: 5%;
+  justify-content: center;
+  gap: 20px;
+}
+
+.video-demo video {
+  z-index: 9999;
+  width: 620px;
+  background-color: white;
+  border-radius: 8px;
 }
 
 .page-content {
   padding: 1rem;
-  width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
