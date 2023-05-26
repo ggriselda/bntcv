@@ -6,7 +6,7 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
-    title: "Web CV",
+    title: "Web giới thiệu về bản thân và project.",
     cardImage: "assets/images/project-page/quiz.jpg",
     description: "Website built using html,css, js and basic react.",
     Previewlink: "https://ggriselda.github.io/bntcv/index.html",
